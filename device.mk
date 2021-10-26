@@ -18,3 +18,6 @@
 
 LOCAL_PATH := device/xiaomi/surya
 
+# Resolution
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
