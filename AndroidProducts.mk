@@ -18,3 +18,7 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_surya.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_surya-eng \
+    lineage_omni_surya-userdebug
