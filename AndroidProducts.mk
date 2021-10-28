@@ -21,4 +21,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     omni_surya-eng \
-    lineage_omni_surya-userdebug
+    omni_surya-userdebug
