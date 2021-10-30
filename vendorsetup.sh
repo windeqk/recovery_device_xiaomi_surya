@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_surya.mk
+add_lunch_combo omni_surya-userdebug
+add_lunch_combo omni_surya-eng
