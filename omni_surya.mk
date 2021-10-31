@@ -30,9 +30,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := surya
 PRODUCT_NAME := omni_surya
+PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO
-PRODUCT_MANUFACTURER := xiaomi
-PRODUCT_RELEASE_NAME := POCO POCO
+PRODUCT_MODEL := M2007J20CG
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_RELEASE_NAME := POCO X3 NFC
