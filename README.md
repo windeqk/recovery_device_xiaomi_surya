@@ -3,20 +3,6 @@ For building TWRP for POCO X3
 
 TWRP device tree for POCO X3
 
-## Features
-
-Works:
-
-- ADB
-- Decryption of /data
-- Screen brightness settings
-- Vibration support
-- Correct screenshot color
-- MTP
-- Flashing (opengapps, roms, images and so on)
-- Backup/Restore
-- USB OTG
-
 ## Compile
 
 First checkout minimal twrp with omnirom tree:
@@ -29,7 +15,7 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/surya" name="brigudav/android_device_xiaomi_surya_twrp" remote="github" revision="android-10" />
+<project path="device/xiaomi/surya" name="windeqk/android_device_xiaomi_surya_twrp" remote="github" revision="android-10" />
 ```
 
 Finally execute these:
